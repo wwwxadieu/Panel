@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="panelretouchmrbeo" ExtensionBundleVersion="3.1.0"
+		ExtensionBundleName="panelretouchmrbeo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	
+	
+	<ExtensionList>
+		<Extension Id="panelretouchmrbeo" Version="3.1" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PHXS" Version="[14.0,99.9]" />
+			<Host Name="PHSP" Version="[14.0,99.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0" />
+
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="panelretouchmrbeo">
+			<DispatchInfo >
+<Resources>
+<MainPath>./index.html</MainPath>
+</Resources>
+<Lifecycle>
+	<AutoVisible>true</AutoVisible>
+</Lifecycle>
+<UI>
+	<Type>Panel</Type>
+	<Menu>AI Panel Beta - Mr. Beo</Menu>
+	<Geometry>
+		<Size>
+			<Height>600</Height>
+			<Width>300</Width>			
+		</Size>
+		     <MaxSize>
+			<Height>1000</Height>
+			<Width>500</Width>
+		</MaxSize>	
+		<MinSize>
+		<Height>100</Height>
+			<Width>100</Width>
+		</MinSize>		
+	</Geometry>
+	<Icons>
+		<Icon Type="Normal">./images/miniicon.png</Icon>
+		<Icon Type="RollOver">./images/miniicon.png</Icon>
+		<Icon Type="Disabled">./images/miniicon.png</Icon>
+		<Icon Type="DarkNormal">./images/miniicon.png</Icon>
+		<Icon Type="DarkRollOver">./images/miniicon.png</Icon>
+	</Icons>
+</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
